@@ -305,249 +305,330 @@
 
 	</section> <!-- END OF BLOCK5 -->	
 
+	<!--=====================================================
+	=            FOLLOWING IS THE PRICING TABLES            =
+	======================================================-->
+	
+
 	<section id="BLOCK6">
 
+		<div class="container">
+			
+			<header>
+
+				<h1 class="text-center">Get Instant Access to the CustomerHub Platform</h1>
+				<h4 class="text-center">Choose Your Plan and Get Started</h4>		
+				
+			</header><!-- /header -->
+
+			<div class="flex-container">
+				<article class="pricebox text-center">
+
+					<div class="content sidebox">
+
+						<h3>Pricebox One</h3>
+						<p>
+							The entire Unbounce platform, plus a Launch Specialist and Success Manager to help maximize your ROI. Enterprise plans are custom-built to suit your needs.
+						</p>
+						<h5>STARTING FROM</h5>
+
+						<h1>$150/mo</h1>
+						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
+
+						<a class="btn btn-primary btn-lg" href="#">GET IT NOW</a>	
+
+					</div>
+					
+				</article>
+				<article class="pricebox text-center">
+
+					<div class="content middlebox">
+						
+						<h3>Pricebox Two</h3>
+						<p>
+							Double the landing pages and Convertables of the Essential plan, plus client sub-accounts, premium integrations, and better conversion tools.
+						</p>
+						<h5>STARTING FROM</h5>
+
+						<h1>$150/mo</h1>
+						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
+
+						<a class="btn btn-primary btn-lg" href="#">GET IT NOW</a>
+
+					</div>	
+					
+				</article>
+				<article class="pricebox text-center">
+
+					<div class="content sidebox">
+						
+						<h3>Pricebox Three</h3>
+						<p>
+							New to landing pages and Convertables? The Essential plan includes everything you need to get started.
+						</p>
+						<h5>STARTING FROM</h5>
+
+						<h1>$150/mo</h1>
+						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
+
+						<a class="btn btn-primary btn-lg" href="#">GET IT NOW</a>
+
+					</div>	
+					
+				</article>
+			</div>
+
+			<footer class="block6-footer">
+				
 				<div class="container">
 
-					<figure class="col-md-6 col-lg-6">
+					<img class="center-block" src="https://unbounce.com/photos/logo_payment.png"></img>
+					<p class="text-center">
+						All pricing in USD, and you won't be billed until after your 30-day trial expires. You can change plans or cancel your account at any time. 
+						Checking out the Enterprise plans? Ask us about Launch Sessions and custom template re-creation.						
+					</p>
+						
+				</div>
+				
+			</footer>
 
-						<article class="left-content">
-
-							<img class="img-responsive center-block" src="https://i.ontraport.com/22246.ff5c8bca6ff934cbcf68d750fcece170.PNG" alt="">
-							
-							<h2 class="text-center">Single Location</h2>
-							<h5 class="text-center">---</h5>
-
-							<aside class="text-center">
-
-
-								<h4>Review Acquisition System</h4>
-								<li>Embeddable Widget</li>
-								<li>Email Footer Widget</li>
-								<li>Prevents Negative Reviews</li>
-								<li>Over 50+ Review Sites</li>
-								<li>Collects Unlimited Reviews</li>
-								<h4>Automate Asking For Reviews</h4>
-								<li>Unlimited Outbound Email Campaigns</li>
-								<li>Outbound SMS Campaigns (additional rates apply)</li>
-								<h4>Review Monitoring & Reporting</h4>
-								<li>Monitors Major Review Sites</li>
-								<li>Sends Review Alerts</li>
-								<li>Produces Custom Reports</li>
-								<h4>Review Promotion</h4>
-								<li>Autoposts Reviews To Social Media</li>
-								<li>Displays Reviews On Your Website</li>
-
-
-								<h3 class="strike">$149/Month*</h3>
-								<h3>$75/Month* Cyber Monday Deal</h3>
-								<h3>YOU SAVE 50%</h3>
-								<h5>*Billed Annually</h5>
-								
-							</aside>
-
-						</article>					
-
-					</figure>
-					<figure class="col-md-6 col-lg-6">
-
-						<article class="right-content">
-
-							<img class="img-responsive center-block" src="https://i.ontraport.com/22246.0519e8444604d35070800cb2e585a236.PNG" alt="">
-
-							<h2 class="text-center">Multi-Location</h2>
-							<h5 class="text-center">(10+ Locations)</h5>
-
-							<aside class="text-center">
-
-								<h4>Review Acquisition System</h4>
-								<li>Embeddable Widget</li>
-								<li>Email Footer Widget</li>
-								<li>Prevents Negative Reviews</li>
-								<li>Over 50+ Review Sites</li>
-								<li>Collects Unlimited Reviews</li>
-								<h4>Automate Asking For Reviews</h4>
-								<li>Unlimited Outbound Email Campaigns</li>
-								<li>Outbound SMS Campaigns (additional rates apply)</li>
-								<h4>Review Monitoring & Reporting</h4>
-								<li>Monitors Major Review Sites</li>
-								<li>Sends Review Alerts</li>
-								<li>Produces Custom Reports</li>
-								<h4>Review Promotion</h4>
-								<li>Autoposts Reviews To Social Media</li>
-								<li>Displays Reviews On Your Website</li>
-
-								<a href="#">
-									<h3 class="price">REQUEST PRICING</h3>
-								</a>
-
-								
-							</aside>
-							
-						</article>										
-
-					</figure>
-					
-				</div>	
+		</div>
 		
 	</section> <!-- END OF BLOCK6 -->
 
-	<section id="BLOCK7" class="pricing-section bg-11">
+	<section id="BLOCK7">
 
-        <h1 class="pricing-section__title text-center">3 PRICING OPTIONS</h1>
-        <div class="pricing pricing--tenzin">
-            <div class="pricing__item">
-                <h3 class="pricing__title">Special</h3>
-                <div class="pricing__price"><span class="pricing__currency">$</span>900/Year</div>
-                <p class="pricing__sentence">Cyber Monday Deal</p>
-                <ul class="pricing__feature-list">
-                    <li class="pricing__feature">Support forum</li>
-                    <li class="pricing__feature">Free hosting</li>
-                    <li class="pricing__feature">40MB of storage space</li>
-                </ul>
-                <button class="pricing__action">Choose plan</button>
-            </div>
-            <div class="pricing__item">
-                <h3 class="pricing__title">Small business</h3>
-                <div class="pricing__price"><span class="pricing__currency">$</span>720/Year</div>
-                <p class="pricing__sentence">Businesses with up to 5 employees</p>
-                <ul class="pricing__feature-list">
-                    <li class="pricing__feature">Unlimited calls</li>
-                    <li class="pricing__feature">Free hosting</li>
-                    <li class="pricing__feature">10 hours of support</li>
-                    <li class="pricing__feature">Social media integration</li>
-                    <li class="pricing__feature">1GB of storage space</li>
-                </ul>
-                <button class="pricing__action">Choose plan</button>
-            </div>
-            <div class="pricing__item">
-                <h3 class="pricing__title">Larger business</h3>
-                <div class="pricing__price"><span class="pricing__currency">$</span>542/Year</div>
-                <p class="pricing__sentence">Businesses with more than 5 employees</p>
-                <ul class="pricing__feature-list">
-                    <li class="pricing__feature">Unlimited calls</li>
-                    <li class="pricing__feature">Free hosting</li>
-                    <li class="pricing__feature">Unlimited hours of support</li>
-                    <li class="pricing__feature">Social media integration</li>
-                    <li class="pricing__feature">Anaylitcs integration</li>
-                    <li class="pricing__feature">Unlimited storage space</li>
-                </ul>
-                <button class="pricing__action">Choose plan</button>
-            </div>
-        </div>
-    </section>  <!-- END OF BLOCK7 -->
+		<div class="container">
+			
+			<figure class="col-md-12 col-lg-12">
+			
+				<h1 class="text-center">Please Contact Us for Information on Multi-Location Service</h1>
+				<div class="text-center">
+					<a class="btn btn-primary btn-lg" href="#">LET'S TALK</a>
+				</div>
+			
+			</figure>
 
-	<section id="BLOCK8">
+		</div>
 
-		<div class="block-style">
-		    <style class="block-css">
-		        .dg {
-		            width: 100%;
-		        }
-		        
-		        .ay {
-		            width: 100%;
-		        }
-		        
-		        .at {
-		            margin-top: 20px;
-		        }
-		        
-		        .dg hr {
-		            margin: 30px 0;
-		            border: 0;
-		            height: 3px;
-		        }
-		        
-		        .l {
-		            /*offset border-spacing of table*/
-		            margin-top: -20px;
-		        }
-		        
-		        .dg .ce {
-		            display: table;
-		            border-spacing: 10px 15px;
-		            margin-left: -10px;
-		        }
-		        
-		        .dg .m {
-		            display: table-cell;
-		            vertical-align: top;
-		            margin-right: 5px;
-		            text-align: left;
-		        }
-		        
-		        .dg .ce__body-section {
-		            display: table-cell;
-		            word-wrap: break-word;
-		            text-align: left;
-		        }
-		    </style>
-		    <div class="du dg cl spacing">
-		        <div class="container">
-		            <div class="u-cf ay">
-		                <div class="dm" opt-char-limit="null">
-		                    <h1 class="text-center">F.A.Q.</h1>
-		                </div>
-		                <hr class="ci">
-		                <div class="l u-cf">
-		                    <template>
-		                        <div opt-id="multi-item-template" opt-alias="item">
-		                            <div class="ce">
-		                                <div class="m">
-		                                    <div class="dm" opt-id="header-2" opt-type="html" opt-alias="Number"><span class="h2">5.</span></div>
-		                                </div>
-		                                <div class="ce__body-section">
-		                                    <div class="dm" opt-id="bodyText-1" opt-type="html" opt-alias="Body Text"> <span class="h2">Lorem ipsum dolor sit</span>
-		                                        <br><span class="large-body-text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span> </div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                    </template>
-		                    <div class="twelve columns first-visible">
-		                        <div class="ce">
-		                            <div class="m"> </div>
-		                            <div class="ce__body-section">
-		                                <div class="dm" opt-char-limit="null"><span class="h2">Do you have an overview that I can download?</span>
-		                                    <br><span class="large-body-text">You can <a data-file_name="CustomerHub Reviews-Overview.pdf" data-page_select=""  href="http://omen.ontraport.com/d/CustomerHub%2BReviews-Overview.pdf" target="_blank" title="Link: http://omen.ontraport.com/d/CustomerHub%2BReviews-Overview.pdf" class="do">click here</a> to see an overview of the software</span></div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="twelve columns">
-		                        <div class="ce">
-		                            <div class="m"> </div>
-		                            <div class="ce__body-section">
-		                                <div class="dm" opt-char-limit="null"><span class="h2">Can I customize the landing page?</span>
-		                                    <br><span class="large-body-text">Yes! You can add your logo and change the words to suite how you speak with your customers.&nbsp;</span></div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="twelve columns">
-		                        <div class="ce">
-		                            <div class="m"> </div>
-		                            <div class="ce__body-section">
-		                                <div class="dm" opt-char-limit="null"><span class="h2">Can I see an example report?</span>
-		                                    <br><span class="large-body-text">Here is an example of a report that the software can generate: <a data-file_name="CustomerHub Reviews Sample Report.pdf"  href="http://omen.ontraport.com/d/CustomerHub%2BReviews%2BSample%2BReport.pdf" target="_blank" title="Link: http://omen.ontraport.com/d/CustomerHub%2BReviews%2BSample%2BReport.pdf" class="do">Click here</a></span></div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="twelve columns">
-		                        <div class="ce">
-		                            <div class="m"> </div>
-		                            <div class="ce__body-section">
-		                                <div class="dm" opt-char-limit="null"><span class="h2">How do I know when bad reviews are generated?</span>
-		                                    <br><span class="large-body-text">You will get an email if a bad review is mitted through the widget or detected through review scanning so you can respond immediately. You can also see a detailed view of all reviews on the reports.</span></div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</div>		
+	</section> <!-- END OF BLOCK3 -->
+
+	<!--================================================================
+	=            FOLLOWING IS THE ALL PLANS INCLUDE SECTION            =
+	=================================================================-->
+
+<section id="BLOCK8">
+
+	<div class="container">
+
+		<h1 class="text-center">All Plans Include</h1>
+
+		<div class="row">
+			<figure class="col-sm-12 col-md-6 col-lg-6 clearfix">
+
+				<article class="left-content">
+
+					<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+					
+					<h3 class="">Drag and Drop Builder</h3>
+
+					<p class="">
+						Easily build, edit and customize — no coding required. 
+						<br>
+						<a href="#">Learn More ></a>
+					</p>
+
+				</article>					
+
+			</figure>
+			<figure class="col-sm-12 col-md-6 col-lg-6 clearfix">
+
+				<article class="right-content">
+
+					<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+
+					<h3 class="">Unbounce Convertables</h3>
+
+					<p class="">
+						Use tools like overlays and sticky bars to drive more conversions on every page.
+						<br>
+						<a href="#">Learn More ></a>
+					</p>
+					
+				</article>										
+
+			</figure>
+		</div>
+		<div class="row clearfix">			
+			<figure class="col-sm-12 col-md-6 col-lg-6 clearfix">
+
+				<article class="right-content">
+
+					<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+
+					<h3 class="">High-Converting Templates</h3>
+
+					<p class="">
+						Choose from 125+ fully customizable templates, or start from scratch. 
+						<br>
+						<a href="#">Learn More ></a>
+					</p>
+					
+				</article>										
+
+			</figure>
+			<figure class="col-sm-12 col-md-6 col-lg-6 clearfix">
+
+				<article class="right-content">
+
+					<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+
+					<h3 class="">Essential Integrations</h3>
+
+					<p class="">
+						Integrate with tools like WordPress, MailChimp and Google Analytics. 
+						<br>
+						<a href="#">Learn More ></a>
+					</p>
+					
+				</article>										
+
+			</figure>
+		</div>
+		<hr>
+	</div> <!-- END CONTAINER -->
+</section>
+
+<!--=====================================================
+=            FOLLOWING IS THE FRETURES TABLE            =
+======================================================-->
+
+
+<section id="BLOCK9" class="hidden-xs">
+
+	<h1>Compare Plan Features</h1>
+
+	<div class="container">
+		
+		<table class="table table-bordered text-center">
+		    <thead>
+		        <tr>
+		            <th class="top-left"></th>
+		            <th  class="text-center">
+						<h3>Enterprise</h3>
+						<h4>$399+/mo</h4>
+						<p>With Annual Billing (20% OFF)</p>		            	
+		            </th>
+		            <th  class="special text-center">
+						<h3>Premium</h3>
+						<h4>$159/mo</h4>
+						<p>With Annual Billing (20% OFF)</p>
+		            </th>
+		            <th  class="text-center">
+						<h3>Essential</h3>
+						<h4>$79/mo</h4>
+						<p>With Annual Billing (20% OFF)</p>
+		            </th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr>
+		            <th scope="row">Published Landing Pages</th>
+		            <td>375+</td>
+		            <td>150</td>
+		            <td>75</td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Published Convertables</th>
+		            <td>40+</td>
+		            <td>16</td>
+		            <td>8</td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td>15+</td>
+		            <td>5</td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td>15+</td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td>15+</td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		        <tr>
+		            <th scope="row">Client Sub-Accounts</th>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+		        </tr>
+		    </tbody>
+		</table>
+
+	</div>
+
+</section>
+
+
+	<!--==================================================
+	=            FOLLOWING IS THE FAQ SECTION            =
+	===================================================-->
+	
+
+	<section id="BLOCK">
+
+		<article class="container">
+			
+			<h1>F.A.Q.</h1>
+
+			<h2>Do you have an overview that I can download?</h2> 
+			<p>You can <a href="http://omen.ontraport.com/d/CustomerHub%2BReviews-Overview.pdf" target="_blank" title="">click here</a> to see an overview of the software</p>
+		
+			<h2>Can I customize the landing page?</h2>
+			<p>Yes! You can add your logo and change the words to suite how you speak with your customers.</p>
+
+			<h2>Can I see an example report?</h2>
+			<p>Here is an example of a report that the software can generate: <a href="http://omen.ontraport.com/d/CustomerHub%2BReviews%2BSample%2BReport.pdf" target="_blank" title="">Click here</a></p>
+
+			<h2>How do I know when bad reviews are generated?</h2>
+			<p>You will get an email if a bad review is mitted through the widget or detected through review scanning so you can respond immediately. You can also see a detailed view of all reviews on the reports.</p>
+
+		</article> <!-- END OF BLOCK8 -->
+
 	</section>
 
-	<footer>
+
+	<footer id="SITE-FOOTER">
 		<nav class="text-center">
 			<ul>
 				<li><a href="" title="">Support</a></li>

@@ -229,186 +229,197 @@ body {
 
 /**
  *
- * 2 COLUMN BLOCK
+ * PRICE BLOCK
  *
  */
-
 #BLOCK6 {
+	// background: $customer-secondary;
 
-	padding-top: 5rem;
+	header {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 
-	img {
-		padding-top: 3rem;
-		padding-bottom: 3rem;
-		padding-left: 3rem;
-		padding-right: 3rem;
-		border: 1rem solid lighten(gray, 40%);
-		border-radius: 50%;
-		margin-bottom: 3rem;
+
+		h1,h4 {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
 	}
-	h2 {
-		font-weight: 600;
+
+	.flex-container {
+
+		// @include align-items(stretch);
+
+
+		@media (min-width: 1100px) {
+
+		  	@include display(flex);
+
+		  	@include flex-direction(row);
+
+		  	@include justify-content(center);			
+		}
+
+	  	.pricebox {
+
+			@media (min-width: 1100px) {
+			  	width: 33%;	  		
+
+			}
+
+			.content {
+	  			padding: 3rem;
+
+		  		box-shadow: 3px 3px 18px lighten($gray-light, 20%);
+
+		  		h3 {
+					@media (max-width: 1100px) {
+						font-size: 3rem;
+		  			}
+		  		}
+		  		p {
+		  			min-height: 150px;
+		  			padding-top: 3rem;
+					
+					@media (max-width: 1100px) {
+						font-size: 2rem;
+						color: gray;
+					}
+
+		  		}
+		  		.btn {
+		  			margin-top: 3rem;
+		  		}				
+			}
+			.middlebox {
+	  			border: 1rem solid $customer-primary;
+	  			height: 500px;
+	  		}	
+	  		.sidebox {
+	  			margin-top: 2rem;
+	  			margin-bottom: 2rem;
+	  		}				
+	  	}
 	}
-	h3 {
-		font-size: 2.2rem;
-		font-weight: 700;
-		color: darken(gray, 10%);
-	}
-	h3.strike {
-		text-decoration: line-through;
-	}
-	h3.price {
-		color: $customer-primary;
-		text-decoration: underline;
-	}
-	h4 {
-		font-weight: 600;
-	}
-	h5 {
-		padding-bottom: 3rem;	
-	}
-	li {
-		list-style: none;
-		font-size: 1.6rem;
-		color: $gray-light;
-		padding-bottom: 1rem;
-	}
+  	.block6-footer {
+  		margin-top: 5rem;
+  		img {
+  			width: 30%;
+  		}
+  		p {
+  			margin-top: 2rem;
+  			margin-bottom: 2rem;
+  		}
+  	}	
 }
 
 /**
  *
- * PRICE TABLES
+ * Blue Background Block 
  *
  */
 
 #BLOCK7 {
 
+	background-size: cover;
+    background-position: center center;
+    background-image: url(https://optassets.ontraport.com/opt_assets/blocks/common/stockPhoto/blocks/block31bg/bg-fauceted-blue2.png);	
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+	@media (min-width: 1000px) {
+		padding-top: 1rem;
+	}
+
 	h1 {
-		font-size: 5rem;
-		color: gray;
+		font-size: 3rem;
+		color: white;
 		padding-top: 3rem;
 		padding-bottom: 2rem;
-		border: 1px solid white;
-		margin-left: 1rem;
-		margin-right: 1rem;
-		margin-bottom: 3rem;
-		box-shadow: 2px 2px 6px gray;
-		
-		@media (max-width: 400px) {
-			font-size: 2.5rem;
-		}		
 	}
-	/* Price Tables Common styles */
+	.btn {
+		padding: 1rem 5rem;
+		border-radius: 50px;
+	}
+}
 
-	.pricing {
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-wrap: wrap;
-		flex-wrap: wrap;
-		-webkit-justify-content: center;
-		justify-content: center;
-		width: 100%;
-		margin: 0 auto 3em;
+/**
+ *
+ * ALL PLANS INCLUDE BLOCK
+ *
+ */
+
+#BLOCK8 {
+
+	h1 {
+		padding-top: 5rem;
 	}
 
-	.pricing__item {
-		position: relative;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-direction: column;
-		flex-direction: column;
-		-webkit-align-items: stretch;
-		align-items: stretch;
-		text-align: center;
-		-webkit-flex: 0 1 330px;
-		flex: 0 1 330px;
+	.row {
+		// margin-top: 5rem;
 	}
 
-	.pricing__feature-list {
-		text-align: left;
+	img {
+		padding-right: 4rem;
 	}
 
-	.pricing__action {
-		color: inherit;
-		border: none;
-		background: none;
-	}
 
-	.pricing__action:focus {
-		outline: none;
+	hr {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	    height: 12px;
+	    border: 0;
+	    box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.5);
 	}
-
-	/* Tenzin */
-	.pricing--tenzin .pricing__item {
-		margin: 1em;
-		padding: 2em 2.5em;
-		text-align: left;
-		color: #262b38;
-		background: #EEF0F3;
-		border-top: 3px solid #EEF0F3;
-		-webkit-transition: border-color 0.3s;
-		transition: border-color 0.3s;
-	}
-
-	.pricing--tenzin .pricing__item:hover {
-		border-color: darken($customer-primary, 10%);
-	}
-
-	.pricing--tenzin .pricing__title {
-		font-size: 1em;
-		margin: 0 0 1em;
-	}
-
-	.pricing--tenzin .pricing__price {
-		font-size: 2em;
-		font-weight: bold;
-		padding: 0.5em 0 0.75em;
-		border-top: 3px solid rgba(139, 144, 157, 0.18);
-	}
-
-	.pricing--tenzin .pricing__currency {
-		font-size: 0.5em;
-		vertical-align: super;
-	}
-
-	.pricing--tenzin .pricing__sentence {
-		font-weight: bold;
-		padding: 0 0 0.5em;
-		color: #9CA0A9;
-		border-bottom: 3px solid rgba(139, 144, 157, 0.18);
-	}
-
-	.pricing--tenzin .pricing__feature-list {
-		font-size: 0.85em;
-		font-style: italic;
-		margin: 0;
-		padding: 0.25em 0 2.5em;
-		list-style: none;
-		text-align: right;
-		color: #8b909d;
-	}
-
-	.pricing--tenzin .pricing__action {
-		font-weight: bold;
-		margin-top: auto;
-		padding: 1em 2em;
-		color: #fff;
-		border-radius: 30px;
-		background: $customer-primary;
-		// background: #3e62e0;
-		-webkit-transition: background-color 0.3s;
-		transition: background-color 0.3s;
-	}
-
-	.pricing--tenzin .pricing__action:hover,
-	.pricing--tenzin .pricing__action:focus {
-		background-color: darken($customer-primary, 10%);
-	}
-
 }
 
 
-#BLOCK8 {
+/**
+ *
+ * FEATURES TABLE
+ *
+ */
+#BLOCK9 {
+
+	background: $customer-third;
+	color: white;
+
+	h1 {
+		text-align: center;	
+		padding-top: 5rem;
+		padding-bottom: 5rem;	
+		color: white;
+	}
+	h2, h3, h4, h5 {
+		color: white;
+	}
+
+	table {
+		margin-bottom: 5rem;
+
+		thead {
+			th.top-left {
+				border-top: 1px solid $customer-third;
+				border-left: 1px solid $customer-third;
+			}
+			th.special {
+				border-top: 2rem solid $customer-primary;
+			}
+		}
+		td {
+			font-size: 2rem;
+			font-weight: 600;
+		}
+	}
+}
+
+/**
+ *
+ * FAQ BLOCK
+ *
+ */
+#BLOCK {
 	margin-top: 5rem;
 
 	h1 {
@@ -416,14 +427,15 @@ body {
 		padding-bottom: 2rem;
 		color: gray;
 		font-size: 5rem;
+		text-align: center;
 	}
 
-	.h2 {
+	h2 {
 		font-family: "Raleway", sans-serif;
 		font-weight: 400;
 		color: gray;
 	}
-	.large-body-text {
+	p {
 		font-size: 2rem;
 		color: darken(gray, 10%);
 
@@ -433,8 +445,7 @@ body {
 
 }
 
-
-footer {
+#SITE-FOOTER {
 	margin-top: 3rem;
 	padding: 5rem;
 	background: darken($steel, 10%);
