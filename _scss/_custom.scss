@@ -221,6 +221,12 @@ body {
 	}
 
 	img {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+		display: block;
+		height: auto;
+		vertical-align: middle;
 		@media (min-width: 1000px) {
 			padding-top: 6rem;
 		}
