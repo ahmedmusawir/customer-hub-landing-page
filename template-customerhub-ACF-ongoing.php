@@ -306,8 +306,8 @@
 			
 			<header>
 
-				<h1 class="text-center">Get Instant Access to the CustomerHub Platform</h1>
-				<h4 class="text-center">Choose Your Plan and Get Started</h4>		
+				<h1 class="text-center"><?php the_field('block_6_heading_text'); ?></h1>
+				<h4 class="text-center"><?php the_field('block_6_sub_heading_text'); ?></h4>		
 				
 			</header><!-- /header -->
 
@@ -316,16 +316,16 @@
 
 					<div class="content sidebox">
 
-						<h3>Pricebox One</h3>
+						<h3><?php the_field('block6_left_price_title'); ?></h3>
 						<p>
-							The entire Unbounce platform, plus a Launch Specialist and Success Manager to help maximize your ROI. Enterprise plans are custom-built to suit your needs.
+							<?php the_field('block6_left_price_text'); ?>
 						</p>
-						<h5>STARTING FROM</h5>
+						<h5><?php the_field('block6_left_price_subtitle'); ?></h5>
 
-						<h1>$150/mo</h1>
-						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
+						<h1><?php the_field('block6_left_price'); ?></h1>
+						<h5 class="price-text"><?php the_field('block_left_price_subtext'); ?></h5>
 
-						<a class="btn btn-success btn-lg" href="#">GET IT NOW</a>	
+						<a class="btn btn-success btn-lg" href="<?php the_field('block_left_price_button_url'); ?>"><?php the_field('block_left_price_button_text'); ?></a>	
 
 					</div>
 					
@@ -334,16 +334,16 @@
 
 					<div class="content middlebox">
 						
-						<h3>Pricebox Two</h3>
+						<h3><?php the_field('block6_middle_price_title'); ?></h3>
 						<p>
-							Double the landing pages and Convertables of the Essential plan, plus client sub-accounts, premium integrations, and better conversion tools.
+							<?php the_field('block6_middle_price_text'); ?>
 						</p>
-						<h5>STARTING FROM</h5>
+						<h5><?php the_field('block6_middle_price_subtitle'); ?></h5>
 
-						<h1>$150/mo</h1>
-						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
+						<h1><?php the_field('block6_middle_price'); ?></h1>
+						<h5 class="price-text"><?php the_field('block_middle_price_subtext'); ?></h5>
 
-						<a class="btn btn-success btn-lg" href="#">GET IT NOW</a>
+						<a class="btn btn-success btn-lg" href="<?php the_field('block_middle_price_button_url'); ?>"><?php the_field('block_middle_price_button_text'); ?></a>	
 
 					</div>	
 					
@@ -352,30 +352,30 @@
 
 					<div class="content sidebox">
 						
-						<h3>Pricebox Three</h3>
+						<h3><?php the_field('block6_right_price_title'); ?></h3>
 						<p>
-							New to landing pages and Convertables? The Essential plan includes everything you need to get started.
+							<?php the_field('block6_right_price_text'); ?>
 						</p>
-						<h5>STARTING FROM</h5>
+						<h5><?php the_field('block6_right_price_subtitle'); ?></h5>
 
-						<h1>$150/mo</h1>
-						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
+						<h1><?php the_field('block6_right_price'); ?></h1>
+						<h5 class="price-text"><?php the_field('block_right_price_subtext'); ?></h5>
 
-						<a class="btn btn-success btn-lg" href="#">GET IT NOW</a>
+						<a class="btn btn-success btn-lg" href="<?php the_field('block_right_price_button_url'); ?>"><?php the_field('block_right_price_button_text'); ?></a>	
 
 					</div>	
 					
 				</article>
+				
 			</div>
 
 			<footer class="block6-footer">
 				
 				<div class="container">
 
-					<img class="center-block" src="https://unbounce.com/photos/logo_payment.png"></img>
+					<img class="center-block" src="<?php the_field('block6_visa_image'); ?>"></img>
 					<p class="text-center">
-						All pricing in USD, and you won't be billed until after your 30-day trial expires. You can change plans or cancel your account at any time. 
-						Checking out the Enterprise plans? Ask us about Launch Sessions and custom template re-creation.						
+						<?php the_field('block6_visa_disclaimer'); ?>					
 					</p>
 						
 				</div>
