@@ -25,33 +25,7 @@
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="template-customerhub.css" />	
 </head>
-<!-- EXAMPLE MODAL -->
-  <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="exampleModalLabel">New message</h4>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="recipient-name" class="control-label">Recipient:</label>
-              <input type="text" class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-              <label for="message-text" class="control-label">Message:</label>
-              <textarea class="form-control" id="message-text"></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Send message</button>
-        </div>
-      </div>
-    </div>
-  </div>  
+
 
 <body>
 	<!-- MODAL EXAMPLE BUTTON -->
@@ -373,7 +347,7 @@
 						<h1>$150/mo</h1>
 						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
 
-						<a class="btn btn-primary btn-lg" href="#">GET IT NOW</a>	
+						<a class="btn btn-success btn-lg" href="#">GET IT NOW</a>	
 
 					</div>
 					
@@ -391,7 +365,7 @@
 						<h1>$150/mo</h1>
 						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
 
-						<a class="btn btn-primary btn-lg" href="#">GET IT NOW</a>
+						<a class="btn btn-success btn-lg" href="#">GET IT NOW</a>
 
 					</div>	
 					
@@ -409,7 +383,7 @@
 						<h1>$150/mo</h1>
 						<h5 class="price-text">With Annual Billing (20% OFF)</h5>
 
-						<a class="btn btn-primary btn-lg" href="#">GET IT NOW</a>
+						<a class="btn btn-success btn-lg" href="#">GET IT NOW</a>
 
 					</div>	
 					
@@ -440,7 +414,7 @@
 			
 			<figure class="col-md-12 col-lg-12">
 			
-				<h1 class="text-center">Please Contact Us for Information on Multi-Location Service</h1>
+				<h1 class="text-center">Have More Than 10 Locations? Please Contact Us for Information on Multi-Location Service</h1>
 				<div class="text-center">
 					<a class="btn btn-primary btn-lg" href="#">LET'S TALK</a>
 				</div>
@@ -571,7 +545,37 @@
 			    </thead>
 			    <tbody>
 			        <tr>
-			            <th scope="row">Published Landing Pages</th>
+			            <th scope="row">
+			            <a href="#"  data-toggle="modal" data-target="#exampleModal">Published Landing Pages</a>
+			            </th>
+
+						<!-- EXAMPLE MODAL -->
+						  <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+						    <div class="modal-dialog" role="document">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						          <h4 class="modal-title modal-text" id="exampleModalLabel">Published Landing Pages</h4>
+						        </div>
+						        <div class="modal-body">
+						          
+									<h5 class="modal-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</h5>
+
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						        </div>
+						      </div>
+						    </div>
+						  </div>  		
+						  	            
 			            <td>375+</td>
 			            <td>150</td>
 			            <td>75</td>
@@ -638,6 +642,78 @@
 	</section>
 
 
+	<!--================================================================
+	=            FOLLOWING IS WE LOVE HELPING SECTION 		           =
+	=================================================================-->
+
+	<section id="BLOCK10">
+
+		<div class="container">
+
+			<h1 class="text-center">We Love Helping Marketers Succeed</h1>
+
+				<figure class="col-sm-12 col-md-3 col-lg-3 clearfix">
+
+					<article class="right-content">
+
+						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+						
+						<h3 class="text-center">Drag and Drop Builder</h3>
+
+						<p class="text-center">
+							Unlimited phone, email and live chat support on all plans.
+						</p>
+
+					</article>					
+
+				</figure>
+				<figure class="col-sm-12 col-md-3 col-lg-3 clearfix">
+
+					<article class="right-content">
+
+						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+
+						<h3 class="text-center">Unbounce Convertables</h3>
+
+						<p class="text-center">
+							Unlimited phone, email and live chat support on all plans.
+						</p>
+						
+					</article>										
+
+				</figure>
+				<figure class="col-sm-12 col-md-3 col-lg-3 clearfix">
+
+					<article class="right-content">
+
+						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+
+						<h3 class="text-center">99% Satisfaction</h3>
+
+						<p class="text-center">
+							Unlimited phone, email and live chat support on all plans.
+						</p>
+						
+					</article>										
+
+				</figure>
+				<figure class="col-sm-12 col-md-3 col-lg-3 clearfix">
+
+					<article class="right-content">
+
+						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+
+						<h3 class="text-center">Essential Integrations</h3>
+
+						<p class="text-center">
+							Unlimited phone, email and live chat support on all plans.
+						</p>
+						
+					</article>										
+
+				</figure>
+		</div> <!-- END CONTAINER -->
+	</section>
 	<!--==================================================
 	=            FOLLOWING IS THE FAQ SECTION            =
 	===================================================-->
