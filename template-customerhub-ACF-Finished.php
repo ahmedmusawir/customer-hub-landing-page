@@ -366,7 +366,7 @@
 					</div>	
 					
 				</article>
-				
+
 			</div>
 
 			<footer class="block6-footer">
@@ -392,9 +392,9 @@
 			
 			<figure class="col-md-12 col-lg-12">
 			
-				<h1 class="text-center">Have More Than 10 Locations? Please Contact Us for Information on Multi-Location Service</h1>
+				<h1 class="text-center"> <?php the_field('block7_heading'); ?></h1>
 				<div class="text-center">
-					<a class="btn btn-primary btn-lg" href="#">LET'S TALK</a>
+					<a class="btn btn-primary btn-lg" href="<?php the_field('block7_button_url'); ?>"><?php the_field('block7_button_text'); ?></a>
 				</div>
 			
 			</figure>
@@ -411,21 +411,19 @@
 
 		<div class="container">
 
-			<h1 class="text-center">All Plans Include</h1>
+			<h1 class="text-center"><?php the_field('block_8_heading_text'); ?></h1>
 
 			<div class="row">
 				<figure class="col-sm-12 col-md-6 col-lg-6 clearfix">
 
 					<article class="left-content">
 
-						<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+						<img class="img-responsive pull-left" src="<?php the_field('block_8_left_top_image'); ?>" alt="">
 						
-						<h3 class="">Drag and Drop Builder</h3>
+						<h3 class=""><?php the_field('block_8_left_top_subheading'); ?></h3>
 
 						<p class="">
-							Easily build, edit and customize — no coding required. 
-							<br>
-							<a href="#">Learn More ></a>
+							<?php the_field('block_8_left_top_text'); ?>	
 						</p>
 
 					</article>					
@@ -435,14 +433,12 @@
 
 					<article class="right-content">
 
-						<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+						<img class="img-responsive pull-left" src="<?php the_field('block_8_right_top_image'); ?>" alt="">
 
-						<h3 class="">Unbounce Convertables</h3>
+						<h3 class=""><?php the_field('block_8_right_top_subheading'); ?></h3>
 
 						<p class="">
-							Use tools like overlays and sticky bars to drive more conversions on every page.
-							<br>
-							<a href="#">Learn More ></a>
+							<?php the_field('block_8_right_top_text'); ?>	
 						</p>
 						
 					</article>										
@@ -454,14 +450,12 @@
 
 					<article class="right-content">
 
-						<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+						<img class="img-responsive pull-left" src="<?php the_field('block_8_left_bottom_image'); ?>" alt="">
 
-						<h3 class="">High-Converting Templates</h3>
+						<h3 class=""><?php the_field('block_8_left_bottom_subheading'); ?></h3>
 
 						<p class="">
-							Choose from 125+ fully customizable templates, or start from scratch. 
-							<br>
-							<a href="#">Learn More ></a>
+							<?php the_field('block_8_left_bottom_text'); ?>	
 						</p>
 						
 					</article>										
@@ -471,14 +465,12 @@
 
 					<article class="right-content">
 
-						<img class="img-responsive pull-left" src="https://unbounce-wpengine.netdna-ssl.com/photos/drag-drop-icon-1.svg" alt="">
+						<img class="img-responsive pull-left" src="<?php the_field('block_8_right_bottom_image'); ?>" alt="">
 
-						<h3 class="">Essential Integrations</h3>
+						<h3 class=""><?php the_field('block_8_right_bottom_subheading'); ?></h3>
 
 						<p class="">
-							Integrate with tools like WordPress, MailChimp and Google Analytics. 
-							<br>
-							<a href="#">Learn More ></a>
+							<?php the_field('block_8_right_bottom_text'); ?>	
 						</p>
 						
 					</article>										
@@ -496,7 +488,7 @@
 
 	<section id="BLOCK9" class="hidden-xs">
 
-		<h1>Compare Plan Features</h1>
+		<h1><?php the_field('block9_heading'); ?></h1>
 
 		<div class="container">
 			
@@ -505,113 +497,73 @@
 			        <tr>
 			            <th class="top-left"></th>
 			            <th  class="text-center">
-							<h3>Enterprise</h3>
-							<h4>$399+/mo</h4>
-							<p>With Annual Billing (20% OFF)</p>		            	
+							<?php the_field('block9_table_header_left'); ?>		            	
 			            </th>
 			            <th  class="special text-center">
-							<h3>Premium</h3>
-							<h4>$159/mo</h4>
-							<p>With Annual Billing (20% OFF)</p>
+							<?php the_field('block9_table_header_middle'); ?>
 			            </th>
 			            <th  class="text-center">
-							<h3>Essential</h3>
-							<h4>$79/mo</h4>
-							<p>With Annual Billing (20% OFF)</p>
+							<?php the_field('block9_table_header_right'); ?>
 			            </th>
 			        </tr>
 			    </thead>
 			    <tbody>
-			        <tr>
-			            <th scope="row">
-			            <a href="#"  data-toggle="modal" data-target="#exampleModal">Published Landing Pages</a>
-			            </th>
 
-						<!-- EXAMPLE MODAL -->
-						  <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-						    <div class="modal-dialog" role="document">
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						          <h4 class="modal-title modal-text" id="exampleModalLabel">Published Landing Pages</h4>
-						        </div>
-						        <div class="modal-body">
-						          
-									<h5 class="modal-text">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									</h5>
 
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-						        </div>
-						      </div>
-						    </div>
-						  </div>  		
-						  	            
-			            <td>375+</td>
-			            <td>150</td>
-			            <td>75</td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Published Convertables</th>
-			            <td>40+</td>
-			            <td>16</td>
-			            <td>8</td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td>15+</td>
-			            <td>5</td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td>15+</td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td>15+</td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
-			        <tr>
-			            <th scope="row">Client Sub-Accounts</th>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			            <td><i class="fa fa-check" aria-hidden="true"></i></td>
-			        </tr>
+					<?php if( have_rows('block9_table_repeater') ): ?>
+					 
+					 	<?php $i = 0; ?>
+
+					    <?php while( have_rows('block9_table_repeater') ): the_row(); ?>
+
+					    <?php $i++; ?>	
+
+			        	<tr>
+					    	        
+				            <th scope="row">
+				            <a href="#"  data-toggle="modal" data-target="#myModal-<?php echo $i; ?>" style="padding-top: 1rem !important;"><?php the_sub_field('row_title'); ?></a>
+				            </th>
+
+							<!-- EXAMPLE MODAL -->
+							  <div class="modal" id="myModal-<?php echo $i; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+							    <div class="modal-dialog" role="document">
+							      <div class="modal-content">
+							        <div class="modal-header">
+							          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							          <h4 class="modal-title modal-text" id="exampleModalLabel"><?php the_sub_field('row_title'); ?></h4>
+							        </div>
+							        <div class="modal-body">
+							          
+										<h5 class="modal-text">
+											<?php 
+
+											 $description = get_sub_field('row_description'); 
+											 echo $description;
+											 $description = "";
+
+											?>
+										</h5>
+
+							        </div>
+							        <div class="modal-footer">
+							          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+							        </div>
+							      </div>
+							    </div>
+							  </div>  		
+							  	            
+				            <td><?php the_sub_field('row_data1'); ?></td>
+				            <td><?php the_sub_field('row_data2'); ?></td>
+				            <td><?php the_sub_field('row_data3'); ?></td>
+
+			        	</tr>
+
+
+					    <?php endwhile; ?>
+					 
+					 
+					<?php endif; ?>			 			            
+			        
 			    </tbody>
 			</table>
 
@@ -628,18 +580,19 @@
 
 		<div class="container">
 
-			<h1 class="text-center">We Love Helping Marketers Succeed</h1>
+			<h1 class="text-center"><?php the_field('block_10_heading_text'); ?></h1>
+
 
 				<figure class="col-sm-12 col-md-3 col-lg-3 clearfix">
 
 					<article class="right-content">
 
-						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+						<img class="img-responsive center-block" src="<?php the_field('block_10_first_image'); ?>" alt="">
 						
-						<h3 class="text-center">Drag and Drop Builder</h3>
+						<h3 class="text-center"><?php the_field('block_10_first_subheading'); ?></h3>
 
 						<p class="text-center">
-							Unlimited phone, email and live chat support on all plans.
+							<?php the_field('block_10_first_text'); ?>
 						</p>
 
 					</article>					
@@ -649,12 +602,12 @@
 
 					<article class="right-content">
 
-						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+						<img class="img-responsive center-block" src="<?php the_field('block_10_second_image'); ?>" alt="">
 
-						<h3 class="text-center">Unbounce Convertables</h3>
+						<h3 class="text-center"><?php the_field('block_10_second_subheading'); ?></h3>
 
 						<p class="text-center">
-							Unlimited phone, email and live chat support on all plans.
+							<?php the_field('block_10_second_text'); ?>
 						</p>
 						
 					</article>										
@@ -664,12 +617,12 @@
 
 					<article class="right-content">
 
-						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+						<img class="img-responsive center-block" src="<?php the_field('block_10_third_image'); ?>" alt="">
 
-						<h3 class="text-center">99% Satisfaction</h3>
+						<h3 class="text-center"><?php the_field('block_10_third_subheading'); ?></h3>
 
 						<p class="text-center">
-							Unlimited phone, email and live chat support on all plans.
+							<?php the_field('block_10_third_text'); ?>
 						</p>
 						
 					</article>										
@@ -679,12 +632,12 @@
 
 					<article class="right-content">
 
-						<img class="img-responsive center-block" src="https://unbounce-wpengine.netdna-ssl.com/photos/any-channel-icon.svg" alt="">
+						<img class="img-responsive center-block" src="<?php the_field('block_10_fourth_image'); ?>" alt="">
 
-						<h3 class="text-center">Essential Integrations</h3>
+						<h3 class="text-center"><?php the_field('block_10_fourth_subheading'); ?></h3>
 
 						<p class="text-center">
-							Unlimited phone, email and live chat support on all plans.
+							<?php the_field('block_10_fourth_text'); ?>
 						</p>
 						
 					</article>										
@@ -701,19 +654,7 @@
 
 		<article class="container">
 			
-			<h1>F.A.Q.</h1>
-
-			<h2>Do you have an overview that I can download?</h2> 
-			<p>You can <a href="http://omen.ontraport.com/d/CustomerHub%2BReviews-Overview.pdf" target="_blank" title="">click here</a> to see an overview of the software</p>
-		
-			<h2>Can I customize the landing page?</h2>
-			<p>Yes! You can add your logo and change the words to suite how you speak with your customers.</p>
-
-			<h2>Can I see an example report?</h2>
-			<p>Here is an example of a report that the software can generate: <a href="http://omen.ontraport.com/d/CustomerHub%2BReviews%2BSample%2BReport.pdf" target="_blank" title="">Click here</a></p>
-
-			<h2>How do I know when bad reviews are generated?</h2>
-			<p>You will get an email if a bad review is mitted through the widget or detected through review scanning so you can respond immediately. You can also see a detailed view of all reviews on the reports.</p>
+			<?php the_field('block_11_faq_content'); ?>
 
 		</article> <!-- END OF BLOCK8 -->
 
@@ -722,13 +663,10 @@
 
 	<footer id="SITE-FOOTER">
 		<nav class="text-center">
-			<ul>
-				<li><a href="" title="">Support</a></li>
-				<li><a href="" title="">Contact</a></li>
-			</ul>
+			<?php the_field('page_footer_navigation'); ?>
 		</nav>
 		<div class="copyright text-center">
-			<a href="#">REFUND POLICY | </a>© 2017 <a href="#">CUSTOMERHUB.REVIEWS </a>a service of <a href="#">Omen Interactive | </a><a href="#">PRIVACY POLICY</a>
+			<?php the_field('page_footer_copyright'); ?>
 		</div>
 	</footer>
 
